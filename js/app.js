@@ -26,7 +26,7 @@ console.log(favoriteColour)
 
 // - inserire il numero per creare la password
     // - assegnare alla variabile il numero
-let numberForPassword = (21)
+let numberForPassword = Math.floor(Math.random(5) * 101);
 console.log(numberForPassword)
 
 // - concatenazione del risultato ricevuto
