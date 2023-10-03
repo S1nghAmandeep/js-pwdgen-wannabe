@@ -10,7 +10,7 @@ console.log(userName)
 
 // - chiedere il suo cognome
 //     - dichiarare una variabile per cognome
-let userSurname
+let userSurname;
 
 //     - assegnare alla variabile il valore ricevuto
 userSurname = prompt('Inserisci il tuo Cognome?')
@@ -18,7 +18,7 @@ console.log(userSurname)
 
 // - chiedere il suo colore preferito
 //     - dichiarare una variabile per colore preferito
-let favoriteColour
+let favoriteColour;
 
 //     - assegnare alla variabile il valore ricevuto
 favoriteColour = prompt('Inserisci il tuo colore preferito')
@@ -31,5 +31,9 @@ console.log(numberForPassword)
 
 // - concatenazione del risultato ricevuto
 //     - dichirare una varialbile con concatenazione tramite dati ricevuti
-const message = userName + userSurname + favoriteColour + numberForPassword
+const message = userName + userSurname + favoriteColour + numberForPassword;
 console.log(message)
+
+
+// serve per verificare che tipo di variabile è
+// console.log(typeof numberForPassword)
