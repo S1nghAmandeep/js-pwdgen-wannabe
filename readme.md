@@ -12,4 +12,4 @@
 - inserire il numero per creare la password
     - assegnare alla variabile il numero
 - concatenazione del risultato ricevuto
-    - dichirare una varialbile con concatenazione con dati ricevuti
+    - dichirare una varialbile con concatenazione tramite dati ricevuti
