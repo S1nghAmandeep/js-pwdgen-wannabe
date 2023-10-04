@@ -13,3 +13,6 @@
     - assegnare alla variabile il numero
 - concatenazione del risultato ricevuto
     - dichirare una varialbile con concatenazione tramite dati ricevuti
+- stampare la password nella pagina
+    - recuperare dal DOM un elemento in base all'id
+    - modificare l'innerHTML con il valore di password
