@@ -5,7 +5,7 @@
 let userName
 
 //     - assegnare alla variabile il valore ricevuto
-userName = prompt('Ciao, Inserisci il tuo nome?')
+userName = prompt('Ciao, Inserisci il tuo nome.')
 console.log(userName)
 
 // - chiedere il suo cognome
@@ -13,7 +13,7 @@ console.log(userName)
 let userSurname;
 
 //     - assegnare alla variabile il valore ricevuto
-userSurname = prompt('Inserisci il tuo Cognome?')
+userSurname = prompt('Inserisci il tuo Cognome.')
 console.log(userSurname)
 
 // - chiedere il suo colore preferito
@@ -21,7 +21,7 @@ console.log(userSurname)
 let favoriteColour;
 
 //     - assegnare alla variabile il valore ricevuto
-favoriteColour = prompt('Inserisci il tuo colore preferito')
+favoriteColour = prompt('Inserisci il tuo colore preferito.')
 console.log(favoriteColour)
 
 // - inserire il numero per creare la password
@@ -33,6 +33,13 @@ console.log(numberForPassword)
 //     - dichirare una varialbile con concatenazione tramite dati ricevuti
 const message = userName + userSurname + favoriteColour + numberForPassword;
 console.log(message)
+
+// - stampare la password nella pagina
+//     - recuperare dal DOM un elemento in base all'id
+const passwordDomElement = document.getElementById('password')
+
+//     - modificare l'innerHTML con il valore di password
+passwordDomElement.innerHTML = message
 
 
 // serve per verificare che tipo di variabile è
